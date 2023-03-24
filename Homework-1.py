@@ -59,11 +59,11 @@ else:
         print("E-posta veya şifreniz yanlıştır.")
 
 
-courses={"Python", "PHP", "JAVA", "C#"}
+courses = {"Python", "PHP", "JAVA", "C#"}
 
-researchCourse:input("Lütfen aradığınız Kursu yazınız:")
+researchCourse = input("Lütfen aradığınız kursu yazınız: ")
 
-if researchCourse==courses:
-        print("aradığınız kurs bulunmaktadır.")
+if researchCourse in courses:
+    print("Aradığınız kurs bulunmaktadır.")
 else:
-        print("aradığınız kurs bulunmamatadır.")
+    print("Aradığınız kurs bulunmamaktadır.")
