@@ -45,3 +45,25 @@ Demet (Tuple): Değiştirilemez veri yapılarıdır. Örneğin, bir kitabın yaz
 Küme (Set): Benzersiz veri öğelerini saklamak için kullanılır. Örneğin, bir yorumda kullanılan benzersiz kelimelerin bir kümede saklanması gibi.
 
 """
+
+
+UserName = "kenan.turgay"
+Password = "asd"
+
+loginUserName = "kenan.turgay"
+loginPassword = "asd"
+
+if  UserName== loginUserName and Password == loginPassword:
+        print("Giriş başarılı")
+else:
+        print("E-posta veya şifreniz yanlıştır.")
+
+
+courses={"Python", "PHP", "JAVA", "C#"}
+
+researchCourse:input("Lütfen aradığınız Kursu yazınız:")
+
+if researchCourse==courses:
+        print("aradığınız kurs bulunmaktadır.")
+else:
+        print("aradığınız kurs bulunmamatadır.")
